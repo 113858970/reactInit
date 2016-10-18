@@ -1,0 +1,35 @@
+
+// mobile
+mobile()
+  @media (max-width: $screen-xs-max)
+    {block}
+
+// tablet
+tablet()
+  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max)
+    {block}
+
+// desktop
+desktop()
+  @media (min-width: $screen-md-min)
+    {block}
+
+// desktop-large
+desktop-large()
+  @media (min-width: $screen-lg-min)
+    {block}
+
+
+// extend
+
+not-mobile()
+  @media (min-width: $screen-tablet)
+    {block}
+
+not-desktop()
+  @media (max-width: $screen-sm-max)
+    {block}
+
+not-large()
+  @media (max-width: $screen-md-max)
+    {block}

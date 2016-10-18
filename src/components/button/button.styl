@@ -1,0 +1,25 @@
+.btn
+  display inline-block
+  padding px2rem(7) px2rem(15)
+  font-size px2rem(16)
+  line-height px2rem(16)
+  border-radius 4px
+  border 1px solid #d9d9d9
+  background-color #fff
+  color #666
+  cursor pointer
+  &:hover
+    color $brand-primary
+    border-color $brand-primary
+  &[disabled]
+    opacity .48
+  &-primary
+    background-color $brand-primary
+    border-color $brand-primary
+    color #fff
+    &:hover
+      color #fff
+      background-color #2a98e6
+      border-color #2a98e6
+  &-lg
+    // width 100%
