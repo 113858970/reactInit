@@ -10,7 +10,7 @@ const ButtonType = {
   warning: 'warning',
 };
 
-const a = {};
+
 
 const ButtonSize = {
   large: 'lg',
